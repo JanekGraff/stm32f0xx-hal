@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Provide ability to reset timer UIF interrupt flag
 - PWM complementary output capability for TIM1 with new example to demonstrate
 - Implement interface for reading and writing to the internal flash memory and an example for demonstration.
+- PWM output on complementary channels only for single channel timers (TIM16 + TIM17)
 
 ### Fixed
 
@@ -258,35 +259,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Interrupt handler to new #[interrupt] attribute
 
 [Unreleased]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.18.0...HEAD
-
 [v0.18.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.17.1...v0.18.0
-
 [v0.17.1]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.17.0...v0.17.1
-
 [v0.17.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.16.0...v0.17.0
-
 [v0.16.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.15.2...v0.16.0
-
 [v0.15.2]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.15.1...v0.15.2
-
 [v0.15.1]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.15.0...v0.15.1
-
 [v0.15.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.14.1...v0.15.0
-
 [v0.14.1]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.14.0...v0.14.1
-
 [v0.14.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.13.0...v0.14.0
-
 [v0.13.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.12.0...v0.13.0
-
 [v0.12.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.11.1...v0.12.0
-
 [v0.11.1]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.11.0...v0.11.1
-
 [v0.11.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.10.1...v0.11.0
-
 [v0.10.1]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.10.0...v0.10.1
-
 [v0.10.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.9.0...v0.10.0
-
 [v0.9.0]: https://github.com/stm32-rs/stm32f0xx-hal/compare/v0.8.0...v0.9.0
